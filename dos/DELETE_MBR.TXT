@@ -1,0 +1,14 @@
+f cs:1000 1200 00
+a 100
+
+mov ah,00
+mov dl,80
+int 13
+mov ax,0301
+mov bx,1000
+mov cx,0001
+mov dx,0080
+int 13
+int 3
+
+g=100
