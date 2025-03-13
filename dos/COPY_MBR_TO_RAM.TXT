@@ -1,0 +1,12 @@
+a 80
+
+mov ah,02
+mov dl,80
+mov dh,00
+mov cx,0001
+mov al,01
+mov bx,0100
+int 13
+int 3
+
+g=80
